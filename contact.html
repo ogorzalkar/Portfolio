@@ -32,14 +32,15 @@
       <p>Let's work together! Feel free to reach out via the form below or directly by email.</p>
     </div>
     <form class="contact-form" autocomplete="off">
-      <label for="name">Name</label>
-  <input type="text" id="name" name="name" required placeholder="eg. John Smith" />
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required placeholder="eg. john@example.com" />
-      <label for="message">Message</label>
-  <textarea id="message" name="message" rows="5" required placeholder="What do you need? Goals, timeline, links..."></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+      <form class="contact-form" action="https://formspree.io/f/mgvlpbpo" method="POST" autocomplete="off">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="eg. John Smith" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="eg. john@example.com" />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="What do you need? Goals, timeline, links..."></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     <div class="contact-info">
   <p><img src="assets/images/footer/gmail.svg" alt="Gmail" style="width:18px;height:18px;vertical-align:middle;margin-right:6px;" />
     <a href="mailto:karogorza@gmail.com" id="contact-email" style="cursor:pointer;">karogorza@gmail.com</a>
@@ -104,6 +105,8 @@
 
 
   <!-- ===== Scripts ===== -->
+
+  <script src="assets/js/faq.js" defer></script>
   <script src="assets/js/footer-inline.js" defer></script>
 
 
