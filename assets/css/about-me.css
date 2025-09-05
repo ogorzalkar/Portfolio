@@ -349,13 +349,13 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  min-height: 220px;
+  min-height: 70px;
 }
 .principle-card h3 {
   font-size: 1.15rem;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  margin: 0 0 0px 0;
+  margin: 0 0 12px 0;
   font-weight: 600;
 }
 .principle-card p {
